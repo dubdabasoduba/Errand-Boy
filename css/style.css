@@ -1,0 +1,67 @@
+body{
+    background: #b6b6b6;
+    margin: 0;
+    padding: 0;
+    font-family: sans, arial;
+}
+#login_form{
+    width: 300px;
+    background: #f0f0f0;
+    border: 1px solid #ffffff;
+    margin: 250px auto 0;
+    padding: 1em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
+    text-align: center;
+}
+input[type=text],
+input[type=password] {
+    display: block;
+    margin: 0 0 1em 0;
+    border: 5px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 1em;
+    width: 280px;
+}
+
+input[type=submit],
+#login_form a{
+    border: none;
+    width: 100px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #348075;
+    color: #ffffff;
+    box-shadow: 0 1px 0 white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+}
+input[type=submit],#login_form a :hover {
+    background: #287368;
+    cursor: pointer;
+}
+
+.error {
+    background: #393939;
+    font-size: 15px;
+}
+
+fieldset{
+    display: block;
+    width: 300px;
+    margin: auto auto 2em;
+}
+
+h1{
+    text-shadow: 0 1px 0 white;
+}
