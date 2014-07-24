@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://dubdabasoduba/CodeIgniter/';
+$config['base_url']	= 'http://dubdabasoduba/Errand-Boy/';
 
 /*
 |--------------------------------------------------------------------------
