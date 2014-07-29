@@ -11,13 +11,13 @@ class User extends CI_Controller
     function index()
     {
         $signin['mainContent'] = 'Signin';
-        $this->load->view('includes/template', $signin);
+        $this->load->view('includes/Landingpage', $signin);
     }
 
     public function signup()
     {
         $signup['mainContent'] = 'Signup';
-        $this->load->view('includes/template', $signup);
+        $this->load->view('includes/Landingpage', $signup);
     }
 }
 

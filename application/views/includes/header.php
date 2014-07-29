@@ -37,7 +37,7 @@
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="glyphicon glyphicon-info-sign"></span> FAQ<b class="caret"></b></a>
                     <span class="dropdown-arrow"></span>
-                    <ul class="dropdown-menu" id="dpcolor">
+                    <ul class="dropdown-menu">
                         <li><a href="#">Why use Errand-Boy?</a></li>
                         <li><a href="#">How to get An Errand-Boy?</a></li>
                         <li><a href="#">How to make an orders</a></li>
