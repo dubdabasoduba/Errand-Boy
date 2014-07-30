@@ -15,12 +15,12 @@ class User extends CI_Controller
         $this->load->view('includes/Landingpage', $signin);
     }
 
-    public function sigin_validation()
+    public function signin_validation()
     {
 
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('login-name','Text','required|trim|xss_clean');
-        $this->form_validation->set_rules('login-pass','Password','required|md5|trim|callback_validate_credentials');
+        $this->form_validation->set_rules('username','required|trim|xss_clean');
+        $this->form_validation->set_rules('password','required|md5|trim|callback_validate_credentials');
 
         if($this->form_validation->run())
         {
