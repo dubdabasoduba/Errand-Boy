@@ -39,10 +39,10 @@
                     <span class="dropdown-arrow"></span>
                     <ul class="dropdown-menu">
                         <li><a href="#">Why use Errand-Boy?</a></li>
-                        <li><a href="#">How to make an order</a></li>
-                        <li><a href="#">Term &amp; Conditions</a></li>
+                        <li><a href="#">How to get An Errand-Boy?</a></li>
+                        <li><a href="#">How to make an orders</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Contact Online Help  <span class="glyphicon glyphicon glyphicon-phone-alt"></span></a></li>
+                        <li><a href="#">Contact Online Help</a></li>
                     </ul>
                 </li>
             </ul>

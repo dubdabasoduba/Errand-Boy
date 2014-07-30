@@ -5179,6 +5179,7 @@ body.vjs-full-window {
     float: right;
     position: relative;
     border-radius: 4px;
+    margin-right: 220px;
 }
 
 .form .control-group {

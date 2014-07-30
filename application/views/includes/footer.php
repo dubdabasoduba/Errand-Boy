@@ -1,7 +1,17 @@
 <footer id="footer">
     <div>
         <div id="mainfoter" >
+            <div class="row">
+                <div class="col-xs-6 col-md-4 text-center" id="borderright">
 
+                </div>
+                <div class="col-xs-6 col-md-4 text-center" id="center">
+
+                </div>
+                <div class="col-xs-6 col-md-4 text-center" id="borderleft">
+
+                </div>
+            </div>
         </div>
         <div class="fttext text-center">Copyright © 2014 Errand-Boy
                     | Twitter : <a href="https://twitter.com/api_craft" target="_Blank"><span
