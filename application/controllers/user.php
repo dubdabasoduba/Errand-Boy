@@ -15,6 +15,27 @@ class User extends CI_Controller
         $this->load->view('includes/Landingpage', $signin);
     }
 
+    public function sigin_validation()
+    {
+
+        $this->load->library('form_validation');
+        $this->form_validation->set_rules('login-name','Text','required|trim|xss_clean');
+        $this->form_validation->set_rules('login-pass','Password','required|md5|trim|callback_validate_credentials');
+
+        if($this->form_validation->run())
+        {
+            /*setting the session data after the validationhas been done*/
+            $data = array('login-name' => $this->input->post('login-name'),'is_logged_in'=> 1);
+            /*the code below sets the use data as the email and always gives the indication of whether the person/user is loggen in*/
+            $this->session->set_userdata($data);
+            redirect('user/members');
+        }
+        /*the code below prevens users form going straight into the pages of the website of system with out loggig in*/
+        else{
+            redirect('user/');
+        }
+    }
+
     public function signup()
     {
         $signup['mainContent'] = 'Signup';
@@ -22,6 +43,16 @@ class User extends CI_Controller
         $this->load->view('includes/Landingpage', $signup);
     }
 
+    /*function to load the members page/view*/
+    public function members(){
+        if($this->session->userdata('is_logged_in')){
+            redirect('user/home');
+        }
+        else{
+            redirect('user/');
+        }
+
+    }
     public function home() {
         $home['mainContent'] = 'home';
         $home['title'] = "Errand-Boy | Home";

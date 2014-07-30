@@ -2,16 +2,27 @@
     <div>
         <div id="mainfoter" >
             <div class="row">
-                <div class="col-xs-6 col-md-4 text-center" id="borderright">
+                <div class="col-xs-6 col-md-4" id="borderright">
                     <div>
-
+                        <h6>Errand-Boy</h6>
+                        <hr/>
+                    </div>
+                    <div>
+                        <p>Errand-Boy is a system simply designed to help you the user
+                            to run your daily errands within your busy schedule. The simply
+                        allows you to write down your errands for the day and send the to a team
+                        of professionals who run the errands for you.</p>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-4 text-center" id="center">
-
+                <div class="col-xs-6 col-md-4" id="center">
+                    <div>
+                        <h6>fhdhdj</h6>
+                    </div>
                 </div>
-                <div class="col-xs-6 col-md-4 text-center" id="borderleft">
-
+                <div class="col-xs-6 col-md-4" id="borderleft">
+                    <div>
+                        <h6>Find us on:-</h6>
+                    </div>
                 </div>
             </div>
         </div>
