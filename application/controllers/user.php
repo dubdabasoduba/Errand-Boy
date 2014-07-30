@@ -25,12 +25,12 @@ class User extends CI_Controller
         if($this->form_validation->run())
         {
             /*setting the session data after the validationhas been done*/
-            $data = array('login-name' => $this->input->post('login-name'),'is_logged_in'=> 1);
+            $data = array('username' => $this->input->post('username'),'is_logged_in'=> 1);
             /*the code below sets the use data as the email and always gives the indication of whether the person/user is loggen in*/
             $this->session->set_userdata($data);
             redirect('user/members');
         }
-        /*the code below prevens users form going straight into the pages of the website of system with out loggig in*/
+        /*the code below prevents users form going straight into the pages of the website of system with out loggig in*/
         else{
             redirect('user/');
         }
