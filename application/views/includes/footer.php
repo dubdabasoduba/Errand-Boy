@@ -10,7 +10,7 @@
                     class="fa fa-facebook soc"></i></a>
                     | Google Plus: <a href="#" target="_Blank"><i
                     class="fa fa-google-plus soc"></i></a>
-                    | Design by: <a rel="nofollow" href="http://www.api-crafttech.com" target="_parent">Api-Craft Technology</a>
+                    | Design by: <a rel="nofollow" href="http://www.api-crafttech.com" target="_blank">Api-Craft Technology</a>
         </div>
     </div>
 </footer>

@@ -5173,51 +5173,40 @@ body.vjs-full-window {
     font-weight: 700;
 }
 
-.login-form {
-    background-color: #edeff1;
-    padding: 24px 23px 20px;
+.form {
+    margin-top: 150px;
+    width: 400px;
+    float: right;
     position: relative;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
-.login-form:before {
-    content: '';
-    border-style: solid;
-    border-width: 12px 12px 12px 0;
-    border-color: transparent #edeff1 transparent transparent;
-    height: 0;
-    position: absolute;
-    left: -12px;
-    top: 35px;
-    width: 0;
-    -webkit-transform: rotate(360deg);
-}
-
-.login-form .control-group {
-    margin-bottom: 6px;
+.form .control-group {
+    margin-bottom: 3px;
     position: relative;
 }
 
-.login-form .login-field {
-    border-color: transparent;
+.form .login-field {
+    border-color:#bfc9ca;
     font-size: 17px;
     text-indent: 3px;
+    height:50px;
 }
 
-.login-form .login-field:focus {
+.form .login-field:focus {
     border-color: #1abc9c;
 }
 
-.login-form .login-field:focus + .login-field-icon {
+.form .login-field:focus + .login-field-icon {
     color: #1abc9c;
 }
 
-.login-form .login-field-icon {
+.form .login-field-icon {
     color: #bfc9ca;
-    font-size: 16px;
+    font-size: 17px;
     position: absolute;
     right: 15px;
-    top: 3px;
+    top: 14px;
     -webkit-transition: 0.25s;
     transition: 0.25s;
 }
@@ -5230,11 +5219,11 @@ body.vjs-full-window {
     text-align: center;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
     .login {
         background-image: url(../images/login/imac-2x.png);
     }
-}
+}*/
 
 footer {
     background-color: #edeff1;

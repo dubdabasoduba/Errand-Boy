@@ -24,8 +24,8 @@ body {
     color: #16a085;
 }
 #mainfoter {
-    background-color:lightgrey;
-    height: 300px;
+    background-color:#F0F0F0 ;
+    height: 250px;
 }
 
 #navbar {
@@ -48,4 +48,7 @@ body {
 .dropdown-menu li:hover {
     background-color: #1abc9c;
     color: #2c3e50;
+}
+#container {
+    height: 550px;
 }
