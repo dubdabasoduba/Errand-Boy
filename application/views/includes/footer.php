@@ -3,7 +3,9 @@
         <div id="mainfoter" >
             <div class="row">
                 <div class="col-xs-6 col-md-4 text-center" id="borderright">
+                    <div>
 
+                    </div>
                 </div>
                 <div class="col-xs-6 col-md-4 text-center" id="center">
 
