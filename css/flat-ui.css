@@ -5174,12 +5174,12 @@ body.vjs-full-window {
 }
 
 .form {
-    margin-top: 150px;
+    margin-top:20px;
     width: 400px;
     float: right;
     position: relative;
     border-radius: 4px;
-    margin-right: 220px;
+    margin-right:20px;
 }
 
 .form .control-group {
