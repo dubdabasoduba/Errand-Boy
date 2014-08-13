@@ -1,0 +1,17 @@
+# Created by .gitignore support plugin (hsz.mobi)
+
+.idea
+Errand-Boy.iml
+
+.idea/.name
+.idea/encodings.xml
+.idea/compiler.xml
+.idea/workspace.xml
+.idea/findbugs-idea.xml
+.idea/copyright
+.idea/modules.xml
+.idea/scopes
+.idea/misc.xml
+.idea/vcs.xml
+.idea/copyright/profiles_settings.xml
+.idea/scopes/scope_settings.xml

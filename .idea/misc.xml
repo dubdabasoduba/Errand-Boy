@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Archetypes.Configuration">
-    <option name="archetypesFileLocation" value="archetypes.xml" />
     <option name="workingDirectory" value="" />
   </component>
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
-    <option name="id" value="1406280585341" />
+    <option name="id" value="1407850829788" />
     <option name="name" value="default" />
   </component>
-  <component name="IdProvider" IDEtalkID="DFD5979637704DF59675B34B795D3468" />
+  <component name="IdProvider" IDEtalkID="90DF2D367F54F83FA2005BF30C591BA2" />
   <component name="MavenBuildProjectComponent">
     <option name="mavenExecutable" value="" />
     <option name="Settings File" value="" />
@@ -38,12 +37,6 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="Struts Navigator">
-    <option name="strutsConfigFile" />
-    <option name="strutsTilesFile" />
-    <option name="strutsValidatorFiles" />
-    <option name="enable" value="false" />
   </component>
   <component name="masterDetails">
     <states>
